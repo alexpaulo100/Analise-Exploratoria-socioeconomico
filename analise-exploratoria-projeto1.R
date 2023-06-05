@@ -15,9 +15,9 @@ str(df)
 View(df)
 dim(df)
 summary(df)
-# Verificar se há dados missin
+# Verificar se há dados faltantes NA
 is.na(df)
-# Verificando a quantidade de dados missin em cada coluna
+# Verificando a quantidade de dados faltantes em cada coluna
 colSums(is.na(df))
 
 # Exploratory data analysis - data cleaning
